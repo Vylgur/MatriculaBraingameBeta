@@ -1,0 +1,719 @@
+* {
+    font-family: Segoe UI;
+    padding: 1px;
+}
+
+body {
+    margin: 0;
+    color: #FFF;
+
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #EFC1FA
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #B224C4;
+border-radius: 20px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('/assets/teste2.png');
+    flex-wrap: wrap;
+    
+}
+.container2 {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444; 
+    flex-wrap: wrap;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.card2 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card3 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card4 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card5 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card6 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card2:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card3:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card4:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card5:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card6:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/fundobranco.avif');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card2 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/fundobranco.avif');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card3 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/fachadanovaera.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card4 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/fundoroxo.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card5 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/premium.gif');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card6 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/em\ breve.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card2 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card3 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card4 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card5 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card6 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card2:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card3:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card4:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card5:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card6:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card:hover .img span {
+    font-size: 28px;
+}
+
+.card2:hover .img span {
+    font-size: 28px;
+}
+
+.card3:hover .img span {
+    font-size: 28px;
+}
+
+.card4:hover .img span {
+    font-size: 28px;
+}
+
+.card5:hover .img span {
+    font-size: 28px;
+}
+
+.card6:hover .img span {
+    font-size: 28px;
+}
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card2 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card3 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card4 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card5 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card6 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card2:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card3:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card4:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card5:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card6:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+}
+
+.card2 .content p {
+    margin: 0;
+}
+
+.card3 .content p {
+    margin: 0;
+}
+
+.card4 .content p {
+    margin: 0;
+}
+
+.card5 .content p {
+    margin: 0;
+}
+
+.card6 .content p {
+    margin: 0;
+}
+
+.card .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card2 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card3 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card4 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card5 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card6 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card2 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card3 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card4 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card5 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card6 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card2 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card3 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card4 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card5 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card6 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card2:hover .arrow {
+    transform: rotate(0);
+}
+
+.card3:hover .arrow {
+    transform: rotate(0);
+}
+
+.card4:hover .arrow {
+    transform: rotate(0);
+}
+
+.card5:hover .arrow {
+    transform: rotate(0);
+}
+
+.card6:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
+
+.card2 .arrow span {
+    font-size: 24px;
+}
+
+.card3 .arrow span {
+    font-size: 24px;
+}
+
+.card4 .arrow span {
+    font-size: 24px;
+}
+
+.card5 .arrow span {
+    font-size: 24px;
+}
+
+.card6 .arrow span {
+    font-size: 24px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.aviso {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+
+.whatsapp-button img {
+    width: 100px;
+    height: 100px;
+}
+
+.custom-alert {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: none; /* Inicialmente oculto */
+}
+
+.close-alert {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
