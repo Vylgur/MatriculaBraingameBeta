@@ -363,3 +363,9 @@ button {
   .Matricular{
     margin-top: 8px
   }
+
+  .EscritaCard2{
+    align-items: center;
+    justify-content: center;
+    margin: 10px
+  }
