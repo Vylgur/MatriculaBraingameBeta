@@ -18,7 +18,8 @@ function setupPopup(buttonId, popupId, redirectUrl) {
 
 // Configure os pop-ups para os botões específicos com URLs distintos
 setupPopup('send-button1', 'popup1', 'https://forms.gle/77ufVhELNFYSmXhN8');
-setupPopup('send-button2', 'popup2', 'https://forms.gle/KJCrowFb17diJ5Et8'); 
+setupPopup('send-button2', 'popup2', 'https://forms.gle/KJCrowFb17diJ5Et8');
+setupPopup('send-button3', 'popup3', 'https://docs.google.com/forms/d/e/1FAIpQLSfJuXA9wdwmtmA8uvlonChY6okft64QHoGVjrkaxRukFlW8qQ/viewform'); 
 
 function abrirWhatsApp() {
   // Substitua 'SEU_NUMERO_DE_TELEFONE' pelo número de telefone desejado, incluindo o código do país.
