@@ -24,7 +24,8 @@ border-radius: 20px;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     background-image: url('/assets/Fundo Beta.png');
     flex-wrap: wrap;
     
@@ -86,17 +87,93 @@ h1{
     margin-top: 20px; /* Espaçamento acima do card */
 }
 
+.card3 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
 
+.card4 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card5 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
+
+.card6 {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+    margin-top: 20px; /* Espaçamento acima do card */
+}
 
 .card:hover {
-    background-image: linear-gradient(#bf542a, #380e74);
+    background-image: linear-gradient(#ff6600, #57038f);
 }
 
 .card2:hover {
-    background-image: linear-gradient(#bf542a, #380e74);
+    background-image: linear-gradient(#ff6600, #57038f);
 }
 
+.card3:hover {
+    background-image: linear-gradient(#0400ff, #57038f);
+}
 
+.card4:hover {
+    background-image: linear-gradient(#6800ca, #522477);
+}
+
+.card5:hover {
+    background-image: linear-gradient(#ffb52a, #483157);
+}
+
+.card6:hover {
+    background-image: linear-gradient(#672abf, #57038f);
+}
 
 .card .img {
     width: 360px;
@@ -128,7 +205,65 @@ h1{
     opacity: .8;
 }
 
+.card3 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/fundobranco.avif');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
 
+.card4 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/fundobranco.avif');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card5 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/premium.gif');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card6 .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('/assets/em\ breve.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
 
 .card .img span {
     text-transform: uppercase;
@@ -146,7 +281,37 @@ h1{
     transition: all .5s;
 }
 
+.card3 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
 
+.card4 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card5 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card6 .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
 
 .card:hover .img {
     width: 430px;
@@ -158,7 +323,25 @@ h1{
     opacity: 1;
 }
 
+.card3:hover .img {
+    width: 430px;
+    opacity: 1;
+}
 
+.card4:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card5:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card6:hover .img {
+    width: 430px;
+    opacity: 1;
+}
 
 .card:hover .img span {
     font-size: 28px;
@@ -168,7 +351,21 @@ h1{
     font-size: 28px;
 }
 
+.card3:hover .img span {
+    font-size: 28px;
+}
 
+.card4:hover .img span {
+    font-size: 28px;
+}
+
+.card5:hover .img span {
+    font-size: 28px;
+}
+
+.card6:hover .img span {
+    font-size: 28px;
+}
 
 .card .content {
     padding: 0px 20px;
@@ -192,7 +389,49 @@ h1{
     transform: translateY(30px);
 }
 
+.card3 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
 
+.card4 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card5 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card6 .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
 
 .card:hover .content {
     height: 150px;
@@ -208,7 +447,33 @@ h1{
     transform: translateY(0);
 }
 
+.card3:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
 
+.card4:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card5:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card6:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .card .content p {
     margin: 0;
@@ -218,21 +483,51 @@ h1{
     margin: 0;
 }
 
+.card3 .content p {
+    margin: 0;
+}
 
+.card4 .content p {
+    margin: 0;
+}
+
+.card5 .content p {
+    margin: 0;
+}
+
+.card6 .content p {
+    margin: 0;
+}
 
 .card .content .title {
     font-size: 20px;
     font-weight: 600;
-    margin-top: 8px
 }
 
 .card2 .content .title {
     font-size: 18px;
     font-weight: 600;
-    margin-top: 8px
 }
 
+.card3 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.card4 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card5 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card6 .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .card .content .desc {
     font-size: 14px;
@@ -248,7 +543,33 @@ h1{
     margin-top: 8px;
 }
 
+.card3 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
 
+.card4 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card5 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card6 .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
 
 .card .arrow {
     padding: 15px;
@@ -262,7 +583,29 @@ h1{
     transition: all .5s;
 }
 
+.card3 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
 
+.card4 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card5 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card6 .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
 
 .card:hover .arrow {
     transform: rotate(0);
@@ -272,13 +615,43 @@ h1{
     transform: rotate(0);
 }
 
+.card3:hover .arrow {
+    transform: rotate(0);
+}
 
+.card4:hover .arrow {
+    transform: rotate(0);
+}
+
+.card5:hover .arrow {
+    transform: rotate(0);
+}
+
+.card6:hover .arrow {
+    transform: rotate(0);
+}
 
 .card .arrow span {
     font-size: 24px;
 }
 
 .card2 .arrow span {
+    font-size: 24px;
+}
+
+.card3 .arrow span {
+    font-size: 24px;
+}
+
+.card4 .arrow span {
+    font-size: 24px;
+}
+
+.card5 .arrow span {
+    font-size: 24px;
+}
+
+.card6 .arrow span {
     font-size: 24px;
 }
 
@@ -362,6 +735,24 @@ button {
 
   .Matricular{
     margin-top: 8px
+  }
+
+  .Matricular2{
+    margin-top: 8px;
+    background-color: #FFFFAC;
+    color: black;
+  }
+
+  .Matricular3{
+    margin-top: 8px;
+    background-color: #8DD202;
+    color: black;
+  }
+
+  .Matricular4{
+    margin-top: 8px;
+    background-color: goldenrod;
+    color: white;
   }
 
   .EscritaCard2{
